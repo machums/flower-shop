@@ -1,0 +1,295 @@
+/* style.css */
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.banner-container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    padding: 20px 43px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.banner-photo {
+    width: 635px;
+    height: 800px;
+    padding: 50px 240px 0px 97px;
+}
+
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.img-title {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.first-img {
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.second-img {
+    padding: 117px 47px 51px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.third-img {
+    padding: 67px 75px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.picture-des {
+    display: flex;
+    justify-content: center;
+    gap: 307px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+/* second section */
+.second-section {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+}
+
+.icon-title {
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    padding-top: 86px;
+    margin-top: 90px;
+}
+
+.icon-text {
+    display: flex;
+}
+
+.icon-pra-1 {
+    color: rgba(39, 39, 39, 0.80);
+    padding-left: 100px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.icon-pra-2 {
+    color: rgba(39, 39, 39, 0.80);
+    padding-left: 100px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.icon-pra-3 {
+    color: rgba(39, 39, 39, 0.80);
+    padding-left: 170px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* second banner */
+.third-section {
+    /* width: 1922px;
+    height: 620px; */
+    margin-top: 120px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.second-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.third-banner-head {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+#off {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.third-pra-title {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.second-btn {
+    color: #FFF;
+    background: #E55473;
+    margin-left: 200px;
+    padding: 20px 43px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 700;
+
+}
+
+.second-banner-img {
+    width: 318px;
+    height: 420px;
+    padding: 100px 229px 100px 10px;
+}
+
+.instagram {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.instagram-pra {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.fourth-banner {
+    width: 1440px;
+    height: 449px;
+    /* margin: 128px 220px; */
+    margin: 100px auto;
+    background-image: url(../images/Rectangle\ 9.png);
+}
+
+
+.last-banner-title {
+    color: #272727;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.last-banner-pra {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#address {
+    width: 700px;
+    height: 50px;
+    margin-left: 280px;
+    border-radius: 8px;
+}
+
+.email-title {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    padding-left: 22px;
+    font-weight: 400;
+}
+
+.third-btn {
+    color: #FFF;
+    background-color: #E55473;
+    padding: 18px 29px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-description {
+    width: 100%;
+    height: 600px;
+    background-color: #111010;
+}
+
+.flower {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-header {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 120px;
+    font-weight: 800;
+}
+
+.footer-pra {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-pra-2 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
