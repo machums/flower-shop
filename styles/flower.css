@@ -1,3 +1,5 @@
+/* flower shop css style */
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -24,6 +26,8 @@ body {
     font-weight: 400;
 }
 
+/* shop now, sign-up, subscribe button style */
+
 .btn, .second-btn, .subscribe-btn {
     background-color: #E55473;
     color: #FFF;
@@ -39,7 +43,7 @@ body {
     padding: 50px 240px 0px 97px;
 }
 
-/* featured section */
+/* featured, instagram, latest deals title section */
 
 .Featured-title, .instagram-title, .latest-banner-title {
     color: #272727;
@@ -48,8 +52,9 @@ body {
     font-weight: 800;
     margin-top: 100px;
 }
+/* feature, hot deal, instagram , latest deal, footer , description section */
 
-.Featured-description, .deal-banner-description, .instagram-text, .latest-banner-description {
+.Featured-description, .deal-banner-description, .instagram-text, .latest-banner-description, .footer-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -198,35 +203,33 @@ body {
 .subscribe-btn {
     padding: 18px 29px;
 }
+/* footer css style */
 
-.footer-description {
+.footer-banner {
     width: 100%;
     height: 600px;
     background-color: #111010;
 }
 
-.flower {
-    color: #E55473;
-    font-size: 48px;
-    font-weight: 800;
-}
 
-.footer-header {
+.footer-title {
     color: #FFF;
     text-align: center;
     font-size: 48px;
     padding-top: 120px;
     font-weight: 800;
 }
-
-.footer-pra {
-    color: rgba(255, 255, 255, 0.90);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+.flower {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
 }
 
-.footer-pra-2 {
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.footer-copyright {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
