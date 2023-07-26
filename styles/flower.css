@@ -94,8 +94,8 @@ body {
 }
 
 
-/* second section */
-.second-section {
+/* icon section */
+.icon-section {
     width: 1440px;
     height: 320px;
     border-radius: 8px;
@@ -115,21 +115,14 @@ body {
     display: flex;
 }
 
-.icon-pra-1 {
+.icon-title-text {
     color: rgba(39, 39, 39, 0.80);
     padding-left: 100px;
     font-size: 24px;
     font-weight: 600;
 }
 
-.icon-pra-2 {
-    color: rgba(39, 39, 39, 0.80);
-    padding-left: 100px;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.icon-pra-3 {
+.icon-title-texts {
     color: rgba(39, 39, 39, 0.80);
     padding-left: 170px;
     font-size: 24px;
